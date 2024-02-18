@@ -15,14 +15,14 @@ const S5 = () => {
           src={bg}
           alt='Home Image'
         />
-        <div className='absolute top-0 left-0 w-full'>
+        <div className='absolute top-0 left-0 z-50 w-full'>
           <Navbar />
         </div>
-        <div className='absolute text-white top-[250px] text-4xl  ml-[100px]  text-center'>
+        <div className='absolute text-white top-[250px] text-4xl md:ml-[100px] z-0 ml-[50px] lg:ml-[100px]  text-center'>
           <h1>Stm32 based projects</h1>
         </div>
       </div>
-      <p className='ml-[100px] mt-[40px] pr-[200px] text-justify'>
+      <p className='pr-[20px] md:pr-[200px] lg:pr-[200px] md:ml-[100px] mt-[20px] ml-[30px] lg:ml-[100px]  text-justify '>
       As a leading provider in the industry, we specialize in designing and delivering 
       cutting-edge projects harnessing the power of STM32 microcontrollers. Our expertise 
       spans a wide array of applications, from embedded systems and IoT devices to industrial 
@@ -33,7 +33,7 @@ const S5 = () => {
        our solutions are at the forefront of innovation
             
             </p>
-            <p className='ml-[100px] mt-[20px] pr-[200px] text-justify pb-[80px]'>
+            <p className='pr-[20px] md:pr-[200px] lg:pr-[200px] md:ml-[100px] mt-[20px] ml-[30px] lg:ml-[100px]  text-justify  pb-[80px]'>
             Choosing Signal Semitech means choosing a partner dedicated to excellence in 
             STM32-based projects. We offer end-to-end services, from project conceptualization 
             and design to development, testing, and deployment. Our client-centric approach ensures 

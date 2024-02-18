@@ -15,21 +15,21 @@ const S2 = () => {
           src={bg}
           alt='Home Image'
         />
-        <div className='absolute top-0 left-0 w-full'>
+        <div className='absolute top-0 left-0 w-full z-50'>
           <Navbar />
         </div>
-        <div className='absolute text-white top-[250px] text-4xl  ml-[100px]  text-center'>
+        <div className='absolute text-white top-[250px] text-4xl z-0 md:ml-[100px] ml-[50px] lg:ml-[100px]  text-center'>
           <h1>Embedded Systems</h1>
         </div>
       </div>
-      <p className='ml-[100px] mt-[40px] pr-[200px] text-justify'>
+      <p className='md:ml-[100px] ml-[30px] lg:ml-[100px] mt-[40px] pr-[20px] md:pr-[200px] lg:pr-[200px] text-justify'>
       Embedded systems are ubiquitous in our daily lives, powering a wide range of devices and applications. 
       They are specially designed to perform specific tasks or functions efficiently, often with real-time constraints. 
       These systems can be found in various domains, including consumer electronics, automotive, medical devices, 
       industrial machines, and more
             
             </p>
-            <p className='ml-[100px] mt-[20px] pr-[200px] text-justify pb-[80px]'>
+            <p className='mt-[20px] pr-[20px] md:pr-[200px] lg:pr-[200px] md:ml-[100px] ml-[30px] lg:ml-[100px]  text-justify pb-[80px]'>
             Our team of experienced engineers excels in designing and developing custom embedded systems
              tailored to meet your unique requirements. Whether you need a sophisticated control system 
              for industrial automation or an intelligent IoT device, we have the expertise to turn your 

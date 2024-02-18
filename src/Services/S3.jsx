@@ -15,21 +15,21 @@ const S3 = () => {
           src={bg}
           alt='Home Image'
         />
-        <div className='absolute top-0 left-0 w-full'>
+        <div className='absolute top-0 left-0 w-full z-50'>
           <Navbar />
         </div>
-        <div className='absolute text-white top-[250px] text-4xl  ml-[100px]  text-center'>
+        <div className='absolute text-white top-[250px] z-0 text-4xl  md:ml-[100px] ml-[50px] lg:ml-[100px]  text-center'>
           <h1>Engineering Consultancy</h1>
         </div>
       </div>
-      <p className='ml-[100px] mt-[40px] pr-[200px] text-justify'>
+      <p className='pr-[20px] md:pr-[200px] lg:pr-[200px] md:ml-[100px] mt-[20px] ml-[30px] lg:ml-[100px]  text-justify '>
       Our strategic engineering consultancy services encompass a broad spectrum of disciplines, 
       from civil and structural engineering to mechanical and electrical systems. We collaborate 
       closely with clients to devise robust strategies that optimize project outcomes and ensure 
       long-term success
             
             </p>
-            <p className='ml-[100px] mt-[20px] pr-[200px] text-justify pb-[80px]'>
+            <p className='pr-[20px] md:pr-[200px] lg:pr-[200px] md:ml-[100px] mt-[20px] ml-[30px] lg:ml-[100px] text-justify  pb-[60px]'>
             Innovation is at the core of what we do. Our consultants constantly explore new 
             technologies and methodologies to infuse creativity and efficiency into every project, providing pioneering 
             solutions that set your projects apart.
