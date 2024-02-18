@@ -23,7 +23,7 @@ const Second = () => {
     }})
  },[])
   return (
-    <div className='w-full md:h-[170vh] h-[180vh] lg:h-[80vh] mx-auto ' id="whoweare">
+    <div className='w-full md:h-[170vh] h-[190vh] lg:h-[80vh] mx-auto ' id="whoweare">
       <div className='grid lg:grid-cols-2 gap-7 m-5'>
         <div className='md:ml-[140px] ml-[50px] lg:ml-[140px]' ref={cRef}>
           <h1 className='text-xl '>Why Signal Semitech</h1>
