@@ -35,9 +35,9 @@ const Products = () => {
 
       {/* product  1*/}
    <div>
-        <div className='grid grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[50px] mt-[80px] transition transform hover:scale-110 duration-500 cursor-pointer' >
+        <div className='grid lg:grid-cols-2 md:grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[50px] mt-[80px] transition transform hover:scale-110 duration-500 cursor-pointer' >
         <div className=' bg-[#00755E] text-white rounded-l-[10px] '>
-          <h1 className='ml-[30px] mt-[20px] text-2xl pt-4 px-4 pr-[10px]'>High voltage Magnetron Driver modules</h1>
+          <h1 className='ml-[30px] mt-[20px] text-2xl  pt-4 md:px-4 lg:px-4 pr-[10px]'>High voltage Magnetron Driver modules</h1>
           <p className='ml-[30px] mt-[8px] pr-9 pl-4 pt-3 text-justify mr-[10px] opacity-70 '> 
            High voltage magnetron driver modules play a pivotal role in microwave systems, ensuring the efficient operation of magnetrons by handling the high voltages essential for their function. These modules serve as the crucial link between the power supply and the magnetron, delivering the necessary power and control signals. With the ability to handle several kilovolts, they incorporate robust insulation and safety features to maintain system reliability and prevent electrical breakdown.</p>
         </div>
@@ -48,7 +48,7 @@ const Products = () => {
 
       {/* product 2*/}
 
-      <div className='grid grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
       <div >
             <img className='rounded-l-[10px] w-[590px] bg-clip object-cover h-300px]' src={p2}/>
         </div>
@@ -62,7 +62,7 @@ const Products = () => {
 
       {/* product 3*/}
 
-      <div className='grid grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
   <div className='bg-[#00755E] text-white rounded-l-[10px]'>
     <h1 className='ml-[30px] mt-[20px] text-2xl pt-4 px-4 pr-[10px]'> Marine Communication Devices</h1>
     <p className='ml-[30px] mt-[8px] pr-9 pl-4 pt-3 text-justify mr-[10px] opacity-70'> 
@@ -77,7 +77,7 @@ const Products = () => {
 
        {/* product 4*/}
 
-       <div className='grid grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+       <div className='gridlg:grid-cols-2 md:grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
       <div >
             <img className='rounded-l-[10px]' src={p4}/>
         </div>
@@ -94,7 +94,7 @@ Microcontroller Trainer Kits serve as invaluable educational tools, providing a 
 
        {/* product 5*/}
 
-       <div className='grid grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+       <div className='grid lg:grid-cols-2 md:grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
      
         <div className=' bg-[#00755E] text-white rounded-l-[10px] '>
           <h1 className='ml-[30px] mt-[20px] text-2xl pt-4 px-4 pr-[10px]'>Flash Burner</h1>
@@ -110,7 +110,7 @@ A flash burner, or microcontroller/EEPROM burner, is a vital tool in embedded sy
 
       {/* product 6*/}
 
-      <div className='grid grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
       <div >
             <img className='rounded-l-[10px]' src={p6}/>
         </div>
@@ -124,7 +124,7 @@ A buck-boost converter is a versatile power electronics device widely used in va
       </div>
       {/* product 7*/}
 
-      <div className='grid grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
       
         <div className=' bg-[#00755E] text-white rounded-l-[10px] '>
           <h1 className='ml-[30px] mt-[20px] text-2xl pt-4 px-4 pr-[10px]'>Electronic Scrolling Message Board</h1>
@@ -137,7 +137,7 @@ A buck-boost converter is a versatile power electronics device widely used in va
       </div>
       {/* product 8*/}
 
-      <div className='grid grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[20px] transition transform hover:scale-110 duration-500 cursor-pointer'>
       <div >
             <img className='rounded-l-[10px]' src={p8}/>
         </div>

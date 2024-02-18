@@ -35,10 +35,10 @@ const Home = () => {
   <div className='w-full lg:h-[100vh] '>
     <img className='w-full h-[600px] bg-clip object-cover top-0 bottom-0' src={home} alt="Background" ref={imgRef} />
   </div>
-  <div className='absolute top-0 left-0 right-0'>
+  <div className='absolute top-1 z-50 left-0 right-0'>
     <Navbar />
   </div>
-  <div className='absolute text-white top-[150px] left-[50px] lg:left-[150px] md:left-[130px] lg:pr-[600px] pr-[100px] md:pr-[50px]' ref={cRef}>
+  <div className='absolute text-white mt-[150px] left-[50px] lg:left-[150px] top-0  md:left-[130px] lg:pr-[600px] pr-[100px] md:pr-[50px]' ref={cRef}>
     <h1 className='text-4xl'>
       Transforming your Journey into Success
     </h1>

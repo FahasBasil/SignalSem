@@ -23,12 +23,12 @@ const Second = () => {
     }})
  },[])
   return (
-    <div className='w-full md:h-[170vh] max-sm:h-[100vh] lg:h-[80vh] mx-auto ' id="whoweare">
+    <div className='w-full md:h-[170vh] h-[260vh] lg:h-[80vh] mx-auto ' id="whoweare">
       <div className='grid lg:grid-cols-2 gap-7 m-5'>
-        <div className='ml-[140px]' ref={cRef}>
+        <div className='md:ml-[140px] ml-[50px] lg:ml-[140px]' ref={cRef}>
           <h1 className='text-xl '>Why Signal Semitech</h1>
           <h1 className='text-6xl mt-[10px] font-bold '>We Build <span className='text-[#00755E]'>anything</span> you want</h1>
-          <p className='text-justify mt-[10px] mr-[100px]'>Our journey is defined by innovation, expertise, 
+          <p className='text-justify mt-[10px] md:mr-[100px] lg:mr-[100px]'>Our journey is defined by innovation, expertise, 
           and a commitment to delivering cutting-edge solutions. With a rich history in the field, 
           we stand as pioneers, harnessing our deep-rooted knowledge to drive technological advancements 
           and shape the future of electronic solutions</p>
