@@ -7,6 +7,7 @@ import Second from './Second'
 import Jouney from './Jouney'
 import Footer from './Footer'
 import Whatwedo from './Whatwedo';
+import { Helmet } from 'react-helmet';
 
 
 const Home = () => {
@@ -31,6 +32,11 @@ const Home = () => {
 
   return (
     <div className='w-full h-screen'>
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Home</title>
+                <link rel="canonical" href="http://signalsemitech.in/home"/>
+            </Helmet>
      <div className='relative'>
   <div className='w-full lg:h-[100vh] '>
     <img className='w-full h-[600px] bg-clip object-cover top-0 bottom-0' src={home} alt="Background" ref={imgRef} />

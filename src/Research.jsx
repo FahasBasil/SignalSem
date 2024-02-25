@@ -16,14 +16,14 @@ const Research = () => {
           src={bg}
           alt='Home Image'
         />
-        <div className='absolute top-0 left-0 w-full'>
+        <div className='absolute top-0 left-0 w-full z-50'>
           <Navbar />
         </div>
         <div className='absolute text-white top-[250px] text-5xl  ml-[100px]  text-center'>
           <h1>Research</h1>
         </div>
       </div>
-      <div className='grid grid-cols-2 gap-6 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[80px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6 border border-gray-300 m-[20px]  rounded-[10px] mb-[100px] mt-[80px] transition transform hover:scale-110 duration-500 cursor-pointer'>
         <div className=' bg-[#00755E] text-white rounded-l-[10px]'>
           <h1 className='ml-[30px] mt-[8px] text-2xl pt-4 px-4 pr-[10px]'>Split spectrum Processing (SSP)</h1>
           <p className='ml-[30px] mt-[8px] px-4 pt-3 text-justify mr-[10px]'>Split Spectrum Processing (SSP) is a sophisticated frequency diversity technique employed to enhance the signal-to-noise ratio (SNR) in ultrasound signals. In ultrasound applications, where image quality and accuracy are paramount,
@@ -35,7 +35,7 @@ const Research = () => {
       </div>
 
 
-      <div className='grid grid-cols-2 gap-6 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6 border border-gray-300 m-[20px]  rounded-[10px] mb-[100px] transition transform hover:scale-110 duration-500 cursor-pointer'>
       <div>
             <img  className='p-5' src={r2}/>
         </div>
@@ -46,7 +46,7 @@ const Research = () => {
         
       </div>
 
-      <div className='grid grid-cols-2 gap-6 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6 border border-gray-300 m-[20px] rounded-[10px] mb-[100px] transition transform hover:scale-110 duration-500 cursor-pointer'>
         <div className=' bg-[#00755E] text-white rounded-l-[10px]'>
           <h1 className='ml-[30px] mt-[8px] text-2xl pt-4 px-4 pr-[10px]'>Deep learning based detection of COVID-19 from chest X-ray images</h1>
           <p className='ml-[30px] mt-[8px] px-4 pt-3 text-justify mr-[10px] pb-[25px]'>
@@ -57,7 +57,7 @@ The deep learning-based detection of COVID-19 from chest X-ray images represents
         </div>
       </div>
 
-      <div className='grid grid-cols-2 gap-6 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[100px] transition transform hover:scale-110 duration-500 cursor-pointer'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6 border border-gray-300 m-[20px] rounded-[10px] mb-[100px] mt-[100px] transition transform hover:scale-110 duration-500 cursor-pointer'>
       <div>
             <img className='mt-[40px] p-5' src={r4}/>
         </div>

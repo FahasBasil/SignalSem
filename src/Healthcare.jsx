@@ -15,14 +15,14 @@ const Healthcare = () => {
           src={bg}
           alt='Home Image'
         />
-        <div className='absolute top-0 left-0 w-full'>
+        <div className='absolute top-0 left-0 w-full z-50'>
           <Navbar />
         </div>
-        <div className='absolute text-white top-[250px] text-5xl  ml-[100px]  text-center'>
+        <div className='absolute text-white text-5xl top-[250px] ml-[100px]  text-center '>
           <h1>Healthcare</h1>
         </div>
       </div>
-      <div className='grid grid-cols-2 gap-6 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[80px]'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6 border border-gray-300 m-[20px] rounded-[10px] mb-[100px] mt-[80px]'>
         <div className=' bg-[#00755E] text-white rounded-l-[10px]'>
           <h1 className='ml-[30px] mt-[8px] text-2xl pt-4 px-4 pr-[10px]'>AI based solutions for Radiologists during volume analysis</h1>
           <p className='ml-[30px] mt-[8px] px-4 pt-3 text-justify mr-[10px]'>Split Spectrum Processing (SSP) is a sophisticated frequency diversity technique employed to enhance the signal-to-noise ratio (SNR) in ultrasound signals. In ultrasound applications, where image quality and accuracy are paramount,
@@ -32,7 +32,7 @@ const Healthcare = () => {
             <img src={h2}/>
         </div>
       </div>
-      <div className='grid grid-cols-2 gap-6 border border-gray-300 m-[20px] mx-[100px] rounded-[10px] mb-[100px] mt-[80px]'>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6 border border-gray-300 m-[20px]  rounded-[10px] mb-[100px] mt-[80px]'>
       <div className='p-5 pr-[50px]'>
         <ReactPlayer url={Health} controls={true} width='100%' />
       </div>
