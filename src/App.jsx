@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet"
 import  Home  from "./Home"
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import S1 from './Services/S1'
@@ -23,6 +24,12 @@ function App() {
 
   return (
     <>
+    <Helmet>
+      <title>{Signalsemitech}</title>
+    </Helmet>
+    <Helmet>
+      <meta name="description" content={Signalsemitech}/>
+    </Helmet>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
