@@ -25,10 +25,10 @@ function App() {
   return (
     <>
     <Helmet>
-      <title>{Signalsemitech}</title>
+      <title>"Signalsemitech"</title>
     </Helmet>
     <Helmet>
-      <meta name="description" content={Signalsemitech}/>
+      <meta name="description" content="Signalsemitech"/>
     </Helmet>
       <BrowserRouter>
       <Routes>
